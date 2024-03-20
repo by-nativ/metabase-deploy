@@ -1,6 +1,6 @@
 {
   "name": "Metabase",
-  "description": "Metabase report server",
+  "description": "Metabase server",
   "keywords": [
     "business intelligence",
     "analytics",
@@ -14,14 +14,14 @@
   "success_url": "/setup",
   "env": {},
   "addons": [
-    "heroku-postgresql"
+    "ah-mariadb-stackhero"
   ],
   "buildpacks": [
     {
       "url": "heroku/jvm"
     },
     {
-      "url": "https://github.com/metabase/metabase-buildpack"
+      "url": "https://github.com/by-nativ/metabase-buildpack"
     }
   ]
 }
